@@ -9,11 +9,11 @@ from models import *
 
 # Configure app
 app = Flask(__name__)
-app.secret_key=os.environ.get('SECRET')
+app.secret_key='replace'
 app.config['WTF_CSRF_SECRET_KEY'] = "b'f\xfa\x8b{X\x8b\x9eM\x83l\x19\xad\x84\x08\xaa"
 
 # Configure database
-app.config['SQLALCHEMY_DATABASE_URI']=os.environ.get('DATABASE_URL')
+app.config['SQLALCHEMY_DATABASE_URI']="postgres://kmtbyuctjqttfv:cc90a7f1245bfd6fd8b269ab62c492bc2496ba4693def1c7041a6caf23d3f8d0@ec2-107-20-239-47.compute-1.amazonaws.com:5432/d5053esn9ed62c"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
