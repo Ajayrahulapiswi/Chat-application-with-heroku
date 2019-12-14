@@ -36,7 +36,7 @@
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s;
-    color: #335177;
+    color: #707733;
 }
 
 @media (max-width: 567px) {
