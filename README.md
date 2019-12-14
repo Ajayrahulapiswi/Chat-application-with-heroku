@@ -1,8 +1,5 @@
 # Chat App Using Flask-SocketIO & Deployed in Heroku
 
-## Demo
-<img src="https://github.com/sandeepsudhakaran/rchat-app/blob/master/static/images/initial.gif" alt="RChat - Chat rooms are back in style!" width="40%" height="40%">
-
 ## Files in the program
 - **application.py**: This is the main app file and contains both the registration/login page logic and the Flask-SocketIO backend for the app.
 - **models.py**: Contains Flask-SQLAlchemy models used for user registration and login in application.py
